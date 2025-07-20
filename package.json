@@ -1,9 +1,19 @@
 {
   "name": "relaycode-core",
-  "module": "index.ts",
+  "version": "0.1.0",
   "type": "module",
+  "module": "src/index.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "diff-apply": "^1.0.6",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.25.67"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "typescript": "^5"
